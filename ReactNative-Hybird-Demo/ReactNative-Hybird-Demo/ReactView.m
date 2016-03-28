@@ -11,7 +11,7 @@
 @implementation ReactView
 
 - (void)awakeFromNib {
-    NSString *urlString = @"http://localhost:8081/ReactComponent/index.ios.bundle";
+    NSString *urlString = @"http://localhost:8081/index.ios.bundle";
     NSURL *jsCodeLocation = [NSURL URLWithString:urlString];
     RCTRootView *rootView = [[RCTRootView alloc]initWithBundleURL:jsCodeLocation moduleName:@"SimpleApp" initialProperties:nil launchOptions:nil];
     
