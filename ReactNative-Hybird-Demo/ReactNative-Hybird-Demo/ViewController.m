@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ReactView.h"
 @interface ViewController ()
 
 @end
